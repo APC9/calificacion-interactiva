@@ -128,7 +128,12 @@ body {
   .container .card {
     width: 90%;
   }
+  
+  .container .card .div-btn span:hover {
+  background: hsl(25deg, 97%, 53%);
+  }
 }
+
 @media screen and (max-width: 700px) {
   .container .card2 {
     width: 90%;
